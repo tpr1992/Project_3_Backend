@@ -17,6 +17,10 @@ Car.create(name: 'Porsche GT3', horsepower: 493, torque: 339, weight: 2900, car_
 
 Car.create(name: 'Mercedes Benz AMG-GT', horsepower: 469, torque: 479, weight: 3500, car_img: 'https://c7.uihere.com/files/597/781/102/car-mercedes-benz-c-class-mercedes-amg-gt3-mousepad-grey-mercedes-amg-gt3-racing-car.jpg')
 
+Car.create(name: 'Scuderia Ferrari', horsepower: 800, torque: 500, weight: 2000, car_img: 'https://thumbs.gfycat.com/ExhaustedCorruptHartebeest-small.gif')
+
+
+
 StartingCar.create(user_id: 1, car_id: 1)
 StartingCar.create(user_id: 1, car_id: 2)
 StartingCar.create(user_id: 1, car_id: 3)
