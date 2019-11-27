@@ -1,4 +1,5 @@
 class RecordsController < ApplicationController
+
   def index
     @records = Record.all
     render json: @records
@@ -9,5 +10,11 @@ class RecordsController < ApplicationController
     render json: @record
   end
 
-
+  def update
+    @record = Record.find(params[:id])
+    @record.wins = params[:wins]
+    @record.save
+    render json: @record
+  end
+  
 end
